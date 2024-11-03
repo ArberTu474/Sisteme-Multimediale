@@ -1,0 +1,18 @@
+1. Krijoni nje faqe html qe ka ne permbajtje te saj nje paragraph me tekstin: 'Meposhte do te gjeni nje permbledhje te karakteristikave te laptopit HP'
+	a. shfaq nje imazh te klikueshem ne hover te te cilit te shfaqet mesazhi "Laptop HP"
+	b. Ne klikim te imazhit te hapet ne nje faqe tjeter karaktreistikat e plota per kete lapotp
+Faqja e re shfaq nje paragraf qe ka keto te dhena:
+	a)Madhesia Ram: 16GB
+	b)Procesor: Intel Core Gjenerata 11
+	c)Tipi sistemit: 64 bit
+	d)Sistem operimi: Windows
+ 
+2. Krijoni nje faqe HTML qe liston produktet qe shiten ne nje market duke vendosur nje pershkrim te shkurter qe thekson cmimin, emrin e produktit dhe kategorine e tij.
+	a)cdo produkti te shoqerohet me nje vije ndarese nga produktet e tjera.
+	b)vendosni nje reference per te marre me shume detaje rreth tij.
+	c)Shfaqni cmimin qe ka qne me vije ne mes dhe cmimin e ri me bold
+
+3. Krijoni  nje faqe HTML titulli i te ciles eshte 'REFERENCA' e cila jep nje pershkrim te temave qe kursi Sisteme Multimediale mbulon.
+Brenda faqes HTML vendosni dy links.
+Linku i pare, ne momentin qe klikohet duhet qe te pozicionohemi ne fund te pershkrimit te kurrikules.
+Linku i dyte, kur klikohet duhet te na pozicionoje ne fillim te pershkrimit
