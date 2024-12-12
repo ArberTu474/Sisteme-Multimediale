@@ -1,0 +1,38 @@
+.description {
+  width: 90ch;
+}
+
+label {
+  display: inline-block;
+  font-size: 1.17em;
+  font-weight: bold;
+}
+
+.stock {
+  color: green;
+}
+
+.no-stock {
+  color: red;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 3em;
+  background-color: lightslategray;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-bottom: 30px;
+}
+
+img {
+  border-radius: 10px;
+}
+a {
+  display: inline-block;
+}
