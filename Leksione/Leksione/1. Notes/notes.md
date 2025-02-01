@@ -296,3 +296,35 @@ div ~ p {
 - `:first-child ` Perzgjedh femijen e pare te cilit do element
 - `:checked` Perzgjedh ato `radio buttons` ose `checkboxes` qe jane te selektuar
 - `:lang(sq)` Perzgjedh ato element qe kane atributin `lang="sq"`
+
+## JavaScript
+
+### JavaScript Popup Boxes
+
+- `Alert` Box
+
+```js
+window.alter('Hellot there')
+```
+
+- `Confirm` Box
+
+```js
+if (confirm('Press a button!')) {
+  txt = 'You pressed OK!'
+} else {
+  txt = 'You pressed Cancel!'
+}
+```
+
+- `Prompt` Box
+
+```js
+let person = prompt('Please enter your name', 'Harry Potter')
+let text
+if (person == null || person == '') {
+  text = 'User cancelled the prompt.'
+} else {
+  text = 'Hello ' + person + '! How are you today?'
+}
+```
