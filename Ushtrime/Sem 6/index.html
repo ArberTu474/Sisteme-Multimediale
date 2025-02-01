@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function pyetja1() {
+        if (confirm('Doni te shfaqni pergjigjen')) {
+          window.alert('Pergjigja do te shfaqet se shpejti')
+          const answer = document.querySelector('#answer')
+          answer.textContent = 'Pergjigja e pyetjes 1'
+        } else {
+          window.alert('Pergjigja nuk do te shfaqet')
+        }
+      }
+
+      function pyetja2() {
+        for (let i = 1; i <= 200; i++) {
+          if (i % 7 == 0) {
+            if (i % 8 == 0) {
+              window.alert(i + ' plotpjestohet me 7 dhe 8')
+            } else if (i % 9 == 0) {
+              window.alert(i + ' plotpjestohet me 7 dhe 9')
+            } else {
+              window.alert(i + ' plotpjestohet me 7')
+            }
+          } else if (i % 8 == 0) {
+            if (i % 9 == 0) {
+              window.alert(i + ' plotpjestohet me 8 dhe 89')
+            } else {
+              window.alert(i + ' plotpjestohet me 8')
+            }
+          } else if (i % 9 == 0) {
+            window.alert(i + ' plotpjestohet me 9')
+          }
+        }
+      }
+
+      function pyetja3() {
+        let hour = new Date().getHours()
+
+        if (prompt('Please enter your name:', 'Duke testuar') === 'Duke testuar') {
+          if (hour < 17) {
+            alert('Detyra duhet te dorezohet para ores 17')
+          } else {
+            alert('afati perfundoi')
+          }
+        } else {
+          alert('Provoni nje text tjeter')
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <button id="btn" onclick="pyetja1()">Shfaq zgjidhjen</button>
+    <button id="btn" onclick="pyetja2()">Shfaq numrat</button>
+    <button id="btn" onclick="pyetja3()">Shfaq</button>
+    <p id="answer"></p>
+  </body>
+</html>

@@ -26,12 +26,21 @@
     </p>
     <form action="" method="GET">
       <h3>Color:</h3>
-      <input type="radio" name="color" id="black" />
+      <!-- <input type="radio" name="color" id="black" />
       <label for="black">Black</label><br />
       <input type="radio" name="color" id="gray" />
       <label for="gray">Gray</label><br />
       <input type="radio" name="color" id="white" />
-      <label for="white">White</label><br />
+      <label for="white">White</label> -->
+
+      <input type="color" list="presetColors" />
+      <br />
+      <datalist id="presetColors">
+        <option value="#ff0000">red</option>
+        <option value="#00ff00">green</option>
+        <option value="#0000ff">blue</option>
+      </datalist>
+
       <label for="quantity">Quantity: </label>
       <input
         type="number"
