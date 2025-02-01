@@ -33,7 +33,7 @@ Krijoni nje faqe HTML titulli i te ciles eshte `REFERENCA` e cila jep nje pershk
 
 ## Usht 4
 
-Krijo ne HTML nje tabele te kesaj forme
+Krijo ne HTML nje tabele te kesaj forme:
 
 ![Hello](img/table.png)
 
@@ -49,6 +49,7 @@ Krijo nje faqe html mbi te dhenat e 5 shtete te boptes.
 - Ne kolonen e 6 te shfaqet kontineni ku ky shtet ben pjese, qe mund te shtrihet ne disa rrehta.
 
 Tabela duhet ti ngjasoje kesaj fotoje:
+
 ![](img/table3.png)
 
 ## Usht 7
@@ -76,7 +77,8 @@ Krijo nje table me 3 reshat dhe 2 shtlla. Tabela duhe te jete `500px` e gjere. Q
 
 - Qeliza e reshtit te trete te shtrihet ne `2 kolona` dhe te kete brenda `emirn` dhe `mbimrin` tuaj.
 
-Tabela duhe te kete kete pamje ne fund
+Tabela duhe te kete kete pamje ne fund:
+
 ![](img/table2.png)
 
 ## Usht 9
