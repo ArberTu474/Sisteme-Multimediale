@@ -34,6 +34,15 @@ Temat e ndryshme qe duhen mesuar ose perseritur
 - `<div>`
 - `<span>`
 - `<iframe>`
+- `<pre>`
+
+### HTML Styling tags
+
+- `<b>` Bold
+- `<i>` Italic
+- `<u>` Undeline
+- `<s>` Line 
+- `<hr/>` Horizontal Line
 
 ### Listat
 
